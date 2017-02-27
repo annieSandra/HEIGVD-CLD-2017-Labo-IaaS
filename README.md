@@ -16,8 +16,24 @@
 
 
 ## TÂCHE 1: INITIALISATION ET INSTALLATION
+ régions accéssibles : 
+  - USA Est(Virginie du Nord, Ohio)
+  - USA Ouest(Californie du Nord; Oregon)
+  - Canada (Centre)
+  - UE(Irlande; Francfort; Londres)
+  - Asie Pacifique(Singapour; Sydney; séoul; Tokyo; Mumbai)
+  - Amérique du Sud(Sao paulo)
+ région la plus proche de suisse : # UE(Francfort)
 
 ## TÂCHE 2: CRÉATION D'UNE INSTANCE AMAZON EC2
+ - DNS public: 
+ - sortie de la commande: 
+    - hostname: 
+    - uname -a: 
+ - le ping de l'instance à partie de la machine locale ne marche pas parcequ'on a pas spécifier une règle qui autorise les ping extérieur de l'instance c'est à dire qui accepte les paquets icmp externes car par défaut tout accès à l'instance est rejeté. Après l'ajout d'une nouvelle règle d'accès au groupe dongmo-dupral on a le ping qui fonctionne(voire image)
+ - adresse IP de l'instance: 
+   
+
  
 ## TÂCHE 3: INSTALLATION D'UNE APPLICATION WEB
 
